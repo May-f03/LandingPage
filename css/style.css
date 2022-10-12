@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:wght@300;400;600&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* globales */
+a{
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* encabezado header */
+header {
+    width: 1100px;
+    height: 72px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a img {
+    width: 60px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+header a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 600;
+}
+header nav a {
+    padding: 12px;
+}
+/* herobanner */
+#herobanner {
+    height: 500px;
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+}
+#herobanner div {
+    width: 1100px;
+    margin: auto;
+}
+h1 {
+    color: #FFB968;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+#herobanner div p {
+    width: 400px;
+}
+/* main */
+main {
+    width: 1100px;
+    margin: auto;
+}
+#letsgo {
+    display: flex;
+    height: 330px;
+    flex-wrap: wrap;
+    flex-direction: column; /* invierte ejes */
+    justify-content: center;
+    align-items: center;
+ 
+}
+#letsgo h2 {
+    width: 1100px;
+    text-align: center;
+    color: #FFB968;
+    font-size: 32px;
+    /* margin-top: 100px; */
+}
+#letsgo p {
+    width: 600px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+/* promos */
+#promos {
+display: flex;
+flex-wrap: wrap; /* respeta los anchos */
+
+}
+
+#promo1, #promo2 {
+    width: 550px;
+    height: 550px;
+    color: white;
+    padding: 100px 80px;
+}
+
+#promo1 {
+    background-color: #807871;
+    
+}
+#promo2 {
+    background-color: #E3B684;
+}
+#promos h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 32px;
+
+}
+/* separador */
+#separador {
+    margin: 80px 0px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #E3B684;
+    text-align: center;
+}
+/* historia */
+#historia {
+    display: flex;
+    justify-content: space-between;
+}
+#historia article {
+    width:339px ;
+    height: 450px;
+    background-color: #807871;
+
+}
+#historia h3 {
+    font-weight: 600 ;
+    margin: 20px 20px;
+    font-size: 30px;
+    color: white;
+ }
+
+ #historia p {
+    font-weight: 200 ;
+    margin: 20px 20px;
+    font-size: 16px;
+    color: white;
+ }
+ /* formulario de contacto */
+ #formulario {
+    background-image: url(../img/hero-3.jpg);
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -120;
+    margin-top: 64px;
+    padding-top: 50px;
+ }
+ #formulario form {
+    width: 698px;
+    margin: auto;
+    padding: 32px;
+    background-color:white;
+    border: 1px solid #cecece;
+    border-radius: 12px;
+
+ }
+ #formulario form label {
+    margin-top: 16px;
+    display: block;
+ }
+ #formulario form input, textarea {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    /* tipo */
+    font-family: Raleway;
+    font-size: 16px;
+    padding: 8px;
+
+    border: 1px solid #cecece;
+    border-radius: 8px;
+ }
+ textarea {
+    height: 104px;
+    resize: none;
+ }
+ button {
+    display: block;
+    width: 50%;
+    background-color: #F7BB74;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #cecece;
+    font-size: 16px;
+    font-family: Raleway;
+    margin-top: 24px;
+
+    cursor: pointer;
+ }
+ button:hover {
+    background-color: #ffac47;
+ }
+ footer {
+    background-color: #807871;
+    
+    
+ }
+ #contenedor-footer {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    display: flex ;
+    align-items: center;
+    height: 160px;
+ }
+ #contenedor-footer img {
+    width: 20px;
+    margin-right: 10px;
+ }
+ #contenedor-footer nav {
+    color: white;
+    display: flex;
+
+ }
+ #contenedor-footer ul {
+    list-style: none;
+margin-left: 53px;
+}
+.tituloLista {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+#contenedor-footer li {
+margin-bottom: 4px;
+}
+
